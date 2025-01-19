@@ -1,0 +1,45 @@
+body {
+  background-color: rgba(255, 255, 255, 0.7); /* 70% transparent weiß */
+}
+
+.container {
+  width: 300px; /* Passe die Breite nach Bedarf an */
+  height: 200px; /* Passe die Höhe nach Bedarf an */
+  margin: 0 auto;
+}
+
+.rectangle {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.6); /* 60% weiß */
+  border: 2px solid #ccc; /* Hellgraue Kontur */
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.top-left {
+  top: -10px;
+  left: -10px;
+}
+
+.top-right {
+  top: -10px;
+  right: -10px;
+}
+
+.bottom-left {
+  bottom: -10px;
+  left: -10px;
+}
+
+.bottom-right {
+  bottom: -10px;
+  right: -10px;
+}
